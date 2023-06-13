@@ -1,0 +1,212 @@
+html {
+	background: #f8f6f7;
+	font-family: sans-serif;
+	min-width: 1000px;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background: white;
+	padding: 5px;
+	align-items: baseline;
+	display: flex;
+	justify-content: space-between;
+}
+
+#n1 {	
+	color: #f35926;
+	font-size: 2.5em;	
+}
+
+#n2 {	
+	color: #fcb929;
+	font-size: 2.5em;
+}
+
+#n3 {
+	color: #00b049;
+	font-size: 2.5em;
+}
+
+#viagens {
+	margin-top: 20px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.site-topo-direita {
+	flex: 1 auto;
+	margin-left: 650px;
+}
+
+.site-topo-esquerda {
+	flex: 1 auto;
+	display: flex;
+	justify-content: flex-end;	
+	font-weight: bold;	
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.menu li {
+	margin-left: 20px;
+}
+
+.menu li a {
+	display: block;
+	margin-top: 10px;
+	color: black;
+}
+
+#barcos {
+	background-repeat: no-repeat;	
+	background-size: 100% 100%;
+	background-image: url("../img/barcos.webp");
+	height: 340px;
+	display: flex;
+	justify-content: center;
+	min-width: 1000px;
+}
+
+.busca {
+	min-width: 1000px;
+	background: white;
+	border-radius: 15px;
+	height: 9em;
+	padding: 1em;
+    text-align: left;   
+    margin-top: 50px; 
+ }
+
+.campo {
+	width: 180px;
+	height: 40px;
+	padding: 4px 8px;
+	border: 1px solid;
+	border-radius: 3px;
+	margin-left: 7px;
+	font-size: 18px;
+	color: grey; 
+}
+
+.destino-foto {
+	padding: .5em;
+	width: 225px;
+	height: 200px;
+	border-radius: 8px;
+	border: none;
+	background-size: cover;
+	background-position: center;	
+	text-align: center;
+}
+
+#rj {
+background-image: url("../img/rio.webp");
+}
+#bonito{
+background-image: url("../img/bonito.webp");
+}
+#sp{
+background-image: url("../img/sao-paulo.webp");
+}
+#foz{
+background-image: url("../img/foz.webp");
+}
+#maceio{
+background-image: url("../img/maceio.webp");
+}
+#salvador{
+background-image: url("../img/salvador.webp");
+}
+#fortaleza{
+background-image: url("../img/fortaleza.webp");
+}
+#bh{
+background-image: url("../img/belo-horizonte.webp");
+}
+
+h1 {
+	font-weight: bold;
+	padding: 1em;
+	margin-left: -16px;	
+	font-size: 22px;
+}
+
+#midsite {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1em;
+	padding: 1em;
+}
+
+h2 {	
+	font-weight: bold;
+	margin-left: -760px;
+	font-size: 22px;
+}
+
+.destino {
+	color: white;
+	text-align: center;
+	margin-top: 35px;
+	font-size: 20px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.valor{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 32px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.btvermais {
+	cursor: pointer;
+	color: black;
+	border-radius: 2em;
+	padding: 5px;
+	width: 150px;
+	height: 30px;
+	border: none;
+	text-align: center;
+    box-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.btbuscar {
+	cursor: pointer;
+	color: white;
+	background: #ea3d35;
+	text-align: center;
+	border: 1px solid ;
+	border-radius: 6px;
+	padding: 5px;
+	width: 180px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.voos-com-desconto {
+	row-gap: 35px;
+	column-gap: 35px;
+	margin-bottom: 6em;
+	font-weight: bold;
+	min-width: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
