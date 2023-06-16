@@ -111,25 +111,25 @@ header {
 #rj {
 background-image: url("../img/rio.webp");
 }
-#bonito{
+#bonito {
 background-image: url("../img/bonito.webp");
 }
-#sp{
+#sp {
 background-image: url("../img/sao-paulo.webp");
 }
-#foz{
+#foz {
 background-image: url("../img/foz.webp");
 }
-#maceio{
+#maceio {
 background-image: url("../img/maceio.webp");
 }
-#salvador{
+#salvador {
 background-image: url("../img/salvador.webp");
 }
-#fortaleza{
+#fortaleza {
 background-image: url("../img/fortaleza.webp");
 }
-#bh{
+#bh {
 background-image: url("../img/belo-horizonte.webp");
 }
 
@@ -161,7 +161,7 @@ h2 {
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.valor{
+.valor {
 	color: white;
 	text-align: center;
 	margin-top: 20px;
